@@ -1,2 +1,2 @@
-# snowflake
+# Snowflake
 Info and general topics
