@@ -22,7 +22,7 @@
 
 - Hybrid of traditional **shared-disk** and **shared-nothing**
 
-![This is an image](/assets/base-octocat.jpg)
+!(/assets/snow_arqui.png)
 
 ## Cloud Services
 
