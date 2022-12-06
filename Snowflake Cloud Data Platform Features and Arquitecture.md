@@ -1,4 +1,4 @@
-# Cloud Data Platformn and Arquitecture
+# Cloud Data Platform and Arquitecture
 
 ## Service
 
