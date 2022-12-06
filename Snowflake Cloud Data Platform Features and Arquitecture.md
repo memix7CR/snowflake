@@ -22,7 +22,7 @@
 
 - Hybrid of traditional **shared-disk** and **shared-nothing**
 
-!(/assets/snow_arqui.png)
+![](/assets/snow_arqui.png)
 
 ## Cloud Services
 
