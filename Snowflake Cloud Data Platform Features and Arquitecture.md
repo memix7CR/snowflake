@@ -22,6 +22,8 @@
 
 - Hybrid of traditional **shared-disk** and **shared-nothing**
 
+![This is an image](/assets/base-octocat.jpg)
+
 ## Cloud Services
 
 Services that coordinate activities across Snowflake
