@@ -23,10 +23,10 @@
 - Specifying specific list of files to upload **(max 1000 files in list at a time)**
 - Identify files via pattern matching (regex)
 - Validating data on load:
-    - Use VALIDATION_MODE (validate errors on load, does not load into table)
-    - ON_ERROR to run actions to follow
+    - Use **VALIDATION_MODE** (validate errors on load, does not load into table)
+    - **ON_ERROR** to run actions to follow
 - When COPY command runs, Snowflake sets load status 
-- Metadata (expires after 64 days)
+- Metadata (expires after **64 days**)
     - Name of file
     - File size
     - Etag of file
