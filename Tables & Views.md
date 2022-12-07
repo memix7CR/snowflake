@@ -78,8 +78,12 @@
 
 ### Time Travel & Fail-Safe
 
+#### Time Travel
 - Query data in the past that has since been updated or deleted
 - Create clones of entire tables, schemas, databases at or before points in the past
 - Restore tables, schemas, databases that have been dropped
+
+#### Fail-Safe
+- Allows disaster-recovery of historical data (not a means of get historical data)
 
 ![](/assets/cdp.png)
