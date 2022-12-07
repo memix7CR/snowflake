@@ -108,15 +108,15 @@ Allows to export data out of Snowflake
 #### Format and restrictions
 
 ##### Allowed formats for export (only UTF-8 encoding)
-   -Delimited Files (CSV, TSV, etc.)
-   -JSON
-   -Parquet
+   - Delimited Files (CSV, TSV, etc.)
+   - JSON
+   - Parquet
       
 ##### Allowed compression for export
-   -gzip (default)
-   -bzip2
-   -brotli
-   -zstandard
+   - gzip (default)
+   - bzip2
+   - brotli
+   - zstandard
       
 ##### Encryption for export
       
