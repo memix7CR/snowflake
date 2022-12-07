@@ -123,12 +123,12 @@ Allows to export data out of Snowflake
    - External (customer supply encryption key)
       
 #### Important considerations
--Empty String and Null
+- Empty String and Null
    - FIELD_OPTIONALLY_ENCLOSED_BY
    - EMPTY_FIELD_AS_NULL
    - NULL_IF
       
--Unloading relational table to JSON
+- Unloading relational table to JSON
    - Use **OBJECT_CONSTRUCT** in COPY command to convert rows of relational table to VARIANT column, then unload the data as usual
       
    
