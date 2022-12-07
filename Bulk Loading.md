@@ -28,4 +28,4 @@ Each **user** and **table** is allocated automatically an internal stage.  We ca
 
 [Bluk Loading from AWS](https://docs.snowflake.com/en/user-guide/data-load-s3.html)\
 [Bluk Loading from Azure](https://docs.snowflake.com/en/user-guide/data-load-azure.html)\
-[Bluk Loading from GCP](https://docs.snowflake.com/en/user-guide/data-load-gcs.html)\
+[Bluk Loading from GCP](https://docs.snowflake.com/en/user-guide/data-load-gcs.html)
