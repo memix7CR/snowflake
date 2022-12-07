@@ -1,3 +1,47 @@
+
+### File Location
+
+- On Local
+- On Cloud
+      - AWS : can load directly from S3 to SF
+      - AWS : can load directly from Blob Storage to SF
+      - AWS : can load directly from GCS to SF
+
+### File Type
+
+- Structured
+        - Delimited files ( CSV, TSV, etc.)
+- Semi-structured
+        - JSON
+        - ORC
+        - Parquet
+        - XML
+**Note:** If files are uncompressed, SF gzip them on load (can disable)
+
+### Loading Data options
+
+- Specifying specific list of files to upload **(max 1000 files in list at a time)**
+- Identify files via pattern matching (regex)
+- Validating data on load:
+        - Use VALIDATION_MODE (validate errors on load, does not load into table)
+        - ON_ERROR to run actions to follow
+- When COPY command runs, Snowflake sets load status 
+- Metadata (expires after 64 days)
+        - Name of file
+        - File size
+        - Etag of file
+        - #rows parsed
+        - Timestamp on last load
+        - Info on errors during load
+- SF recommends removing the data from stage once the load is completed to avoid reloading again
+      - Use **REMOVE (and specify PURGE IN COPY argument) **
+- For semi-structured:
+     - Snowflake loads semi-structured data to **VARIANT** type column
+     - Can load semi-structured data into multiple columns but it must be stored as field in structured data
+     - Use **FLATTEN** to explode values into multiple **rows**
+     - Data Transformations during load : reordering, column-omission, casts, truncate text
+
+
 ### Bulk Loading from Local File System
 
 1- Upload one or more data files to a Snowflake stage using **PUT** command from your local machine 
