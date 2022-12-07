@@ -47,3 +47,42 @@ Enable users to connect to Snowflake using secure SSO (single sign-on)
 :arrow_right: **RBAC** Role-Based Access Control
 - Privileged are assigned to roles, then roles to users
 
+### System Defined Roles
+
+:upper_right: **ORGADMIN**
+- Role that manages operations at the organization level:
+  - Can create accounts in the organization
+  - View all accounts in the organization 
+  - View usage across the organization
+
+:upper_right: **ACCOUNTADMIN**
+- Encapsulates SECURITYADMIN and SYSADMIN
+
+:upper_right: **USERADMIN**
+- Role that is dedicated to user and role management only
+
+:upper_right: **SECURITYADMIN**
+- Creates, modify, drops user, roles, monitor, grants
+
+:upper_right: **SYSYADMIN**
+- Creates Virtual Warehouses, Databases and its objects
+- Recommend to assign **CUSTOM ROLES** to **SYSADMIN** 
+
+:upper_right: **PUBLIC**
+- Automatically granted to all users
+- Can own secured objects
+- Used where explicit access control is not required
+
+:upper_right: **CUSTOM ROLES**
+- Created by **SECURITYADMIN**
+- Assign to **SYSADMIN**
+- Create custom roles with least privilege and role them up
+
+
+![](/assets/roles.png)
+
+
+#### Privilege Inheritance
+
+![](/assets/role_2.png)
+
