@@ -27,11 +27,11 @@
         - ON_ERROR to run actions to follow
 - When COPY command runs, Snowflake sets load status 
 - Metadata (expires after 64 days)
-        - Name of file
-        - File size
-        - Etag of file
-        - #rows parsed
-        - Timestamp on last load
+        - Name of file\
+        - File size\
+        - Etag of file\
+        - #rows parsed\
+        - Timestamp on last load\
         - Info on errors during load
 - SF recommends removing the data from stage once the load is completed to avoid reloading again
       - Use **REMOVE (and specify PURGE IN COPY argument) **
