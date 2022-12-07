@@ -38,10 +38,20 @@ Services that coordinate and ties activities across Snowflake
 
 SF caches different data to improve query performance and reducing costs
 
-#### Metadata cache  :point_right:  Cloud Services Layer
+#### Metadata cache   :arrow_right:   Cloud Services Layer
 
 - Improve compile time for queries against commonly used tables
 
+#### Result cache    :arrow_right:   Cloud Services Layer
+
+- Holds the query results
+- If customer runs exact same query within 24 hrs, result cache is used (no warehouse is required)
+
+### Local Disk/Warehouse/SSD Cache :arrow_right:   Storage Layer
+
+- Caches the data used by SQL query in its local SSD and memory
+- Improves query performance if same data was used (less time to fetch remotely)
+- Cache dropped when the warehouse is suspended
 
 
 
