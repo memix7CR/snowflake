@@ -9,4 +9,19 @@
 
 ### Types of Internal Stages
 
-- 
+Each **user** and **table** is allocated automatically an internal stage.  We can add also **internal named** stages
+
+:arrow_right: #### User Stage (@~)
+
+- Option for files accesed by a **single user** but copying into a multiple tables
+- Cannot be altered or dropped, file format not supported.
+
+:arrow_right: #### Named Stage (@)
+
+- Data objects, flexibility for data loading. Option when planning regular data loads that involve multiple users and multiple tables
+
+
+:arrow_right: #### Table Stage (@%)
+
+- Convenient for files acceses by **multiple users** but copying into a **single table**
+- Cannot be altered or dropped, file format not supported.
