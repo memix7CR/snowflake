@@ -31,7 +31,7 @@
 
 - Use to store data temporarily
 - Exists within the session (data purged after session ends)
-- Not visibke to other users, not recoverable
+- Not visible to other users, not recoverable
 - Default **1 day of time travel**
 
 #### Transient
