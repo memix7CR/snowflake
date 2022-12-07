@@ -18,4 +18,15 @@ Database objects shared are **read-only**, no actual data is copy or transferred
 
 ![](/assets/sharing_1.png)
 
+
+### Share
+
 ![](/assets/sharing_2.png)
+
+
+### Reader Accounts
+
+- For users **without Snowflake account**
+- DML tasks not allowed
+
+![](/assets/reader.png)
