@@ -33,7 +33,7 @@
         - #rows parsed\
         - Timestamp on last load\
         - Info on errors during load
-- SF recommends removing the data from stage once the load is completed to avoid reloading again
+- SF recommends removing the data from stage once the load is completed to avoid reloading again\
       - Use **REMOVE (and specify PURGE IN COPY argument) **
 - For semi-structured:
      - Snowflake loads semi-structured data to **VARIANT** type column
