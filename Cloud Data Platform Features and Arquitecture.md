@@ -57,7 +57,7 @@ SF caches different data to improve query performance and reducing costs
 :arrow_right: Cache dropped when the warehouse is suspended
 
 
-#### Connecting to Snowflake
+### Connecting to Snowflake
 
 - Web Based UI
 - Command Line Client (CLI)
@@ -67,12 +67,12 @@ SF caches different data to improve query performance and reducing costs
 - Others (Node.js, NET)
 
 
-#### Snowflake Address
+### Snowflake Address
 
 https://account_name_region_{provider}.snowflakecomputing.com
 
 Account_name:
-  -AWS       = account_name.region
+  -AWS       = account_name.region\
   -GCP/Azure = account_name.region.gcp/azure
 
 
