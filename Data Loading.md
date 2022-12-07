@@ -12,9 +12,9 @@
 - Structured
      - Delimited files ( CSV, TSV, etc.)
 - Semi-structured
-     - JSON\
-     - ORC\
-     - Parquet\
+     - JSON
+     - ORC
+     - Parquet
      - XML
 **Note:** If files are uncompressed, SF gzip them on load (can disable)
 
@@ -22,24 +22,24 @@
 
 - Specifying specific list of files to upload **(max 1000 files in list at a time)**
 - Identify files via pattern matching (regex)
-- Validating data on load:\
-      - Use VALIDATION_MODE (validate errors on load, does not load into table)\
-      - ON_ERROR to run actions to follow\
+- Validating data on load:
+    - Use VALIDATION_MODE (validate errors on load, does not load into table)
+    - ON_ERROR to run actions to follow
 - When COPY command runs, Snowflake sets load status 
-- Metadata (expires after 64 days)\
-       - Name of file\
-       - File size\
-       - Etag of file\
-       - #rows parsed\
-       - Timestamp on last load\
-       - Info on errors during load\
+- Metadata (expires after 64 days)
+    - Name of file
+    - File size
+    - Etag of file
+    - #rows parsed
+    - Timestamp on last load
+    - Info on errors during load
 - SF recommends removing the data from stage once the load is completed to avoid reloading again\
-       - Use **REMOVE (and specify PURGE IN COPY argument) **
+    - Use **REMOVE (and specify PURGE IN COPY argument) **
 - For semi-structured:
-       - Snowflake loads semi-structured data to **VARIANT** type column\
-       - Can load semi-structured data into multiple columns but it must be stored as field in structured data\
-       - Use **FLATTEN** to explode values into multiple **rows**\
-       - Data Transformations during load : reordering, column-omission, casts, truncate text
+    - Snowflake loads semi-structured data to **VARIANT** type column
+    - Can load semi-structured data into multiple columns but it must be stored as field in structured data
+    - Use **FLATTEN** to explode values into multiple **rows**
+    - Data Transformations during load : reordering, column-omission, casts, truncate text
 
 
 ### Bulk Loading from Local File System
