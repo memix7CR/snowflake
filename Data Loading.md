@@ -10,12 +10,12 @@
 ### File Type
 
 - Structured
-        - Delimited files ( CSV, TSV, etc.)
+     - Delimited files ( CSV, TSV, etc.)
 - Semi-structured
-        - JSON
-        - ORC
-        - Parquet
-        - XML
+     - JSON\
+     - ORC\
+     - Parquet\
+     - XML
 **Note:** If files are uncompressed, SF gzip them on load (can disable)
 
 ### Loading Data options
