@@ -110,4 +110,14 @@ Snowflake encrypts all data at rest and in-transit **no additional cost**
 ![](/assets/security.png)
 
 
+### Key Rotation
+
+- Snowflake encrypts all data by default and keys are rotated
+- Hierarchical Key Model for the Key Management:
+  - Root Key
+  - Account Master Key (auto-rotate if >30 days old)
+  - Table Master Key (auto-rotate if >30 days old)
+  - File Keys
+
+![](/assets/rekeying.png)
 
