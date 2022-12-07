@@ -102,7 +102,12 @@ Recommended for micro-batching (smaller)
 - Allows to export data out of Snowflake
 - Uses **COPY INTO** <location> (external or internal stage)
      - Use **GET** command to download the file
-     - Use SELECT and other SQL syntax to build the data for export
+     - Use **SELECT** and other SQL syntax to build the data for export
+     - To download into a single file use property **SINGLE=TRUE** or FALSE for multiple files
+      
+#### Format and restrictions
+
+
       
       
    
