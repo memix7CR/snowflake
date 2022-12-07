@@ -99,15 +99,26 @@ Recommended for micro-batching (smaller)
 
 #### General
 
-- Allows to export data out of Snowflake
+Allows to export data out of Snowflake
 - Uses **COPY INTO** <location> (external or internal stage)
-     - Use **GET** command to download the file
-     - Use **SELECT** and other SQL syntax to build the data for export
-     - To download into a single file use property **SINGLE=TRUE** or FALSE for multiple files
+- Use **GET** command to download the file
+- Use **SELECT** and other SQL syntax to build the data for export
+- To download into a single file use property **SINGLE=TRUE** or FALSE for multiple files
       
 #### Format and restrictions
 
-
+##### Allowed formats for export (only UTF-8 encoding)
+      -Delimited Files (CSV, TSV, etc.)
+      -JSON
+      -Parquet
+      
+##### Allowed compression for export
+      -gzip (default)
+      -bzip2
+      -brotli
+      -zstandard
+      
+##### Encryption for export
       
       
    
