@@ -25,3 +25,4 @@
 
 #### Some rules
 
+![](/assets/rules.png)
