@@ -20,4 +20,4 @@
 
 ### Scaling Policies
 
-![](/assets/)
+![](/assets/policy.png)
