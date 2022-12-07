@@ -50,10 +50,30 @@ SF caches different data to improve query performance and reducing costs
 :arrow_right: If customer runs exact same query within 24 hrs, result cache is used (no warehouse is required)\
 
 #### Local Disk/Warehouse/SSD Cache
+
 :arrow_right:   Storage Layer\
 :arrow_right: Caches the data used by SQL query in its local SSD and memory\
 :arrow_right: Improves query performance if same data was used (less time to fetch remotely)\
-:arrow_right: Cache dropped when the warehouse is suspended\
+:arrow_right: Cache dropped when the warehouse is suspended
+
+
+#### Connecting to Snowflake
+
+- Web Based UI
+- Command Line Client (CLI)
+- ODBC & JDBC (need to download driver)
+- Native Connectors (Python, Spark & Kafka)
+- 3rd Party connectors (Matillion)
+- Others (Node.js, NET)
+
+
+#### Snowflake Address
+
+https://account_name_region_{provider}.snowflakecomputing.com
+
+Account_name:
+  -AWS       = account_name.region
+  -GCP/Azure = account_name.region.gcp/azure
 
 
 ## Supported Cloud Platforms/Regions
