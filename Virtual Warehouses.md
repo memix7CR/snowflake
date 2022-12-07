@@ -1,4 +1,4 @@
-#### Cluster of resource
+### Cluster of resource
 
 - CPU, Memory and Temporary Storage
 - Active on usage of ( SELECT, DML like DELETE, INSERT, COPY INTO, etc.)
@@ -18,5 +18,5 @@
    - Maximized : same min and max # of clusters (but > 1)
    - Auto-scale: different min and max # of clusters.
 
-#### Scaling Policies
+### Scaling Policies
 
