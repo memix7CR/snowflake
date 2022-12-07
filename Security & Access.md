@@ -28,4 +28,22 @@ Enable users to connect to Snowflake using secure SSO (single sign-on)
 
 ### MFA 
 
-At a minimum, **ACCOUNTADMIN** role should be assigned to use MFA
+- At a minimum, **ACCOUNTADMIN** role should be assigned to use MFA
+- Powered by **Duo System**. Customers need to enable it
+- Used with Snow Web UI, SnowSQL, ODBC, JDBC, Python Connector  
+
+### Network Policy
+
+- Allow access based on IP whilelist or restrictions to IP blacklist
+  - Apply via SQL or WebUI
+  - Only **SECURITYADMIN OR ACCOUNTADMIN** can modify, drop or create
+  - Created at user and account level
+
+### Access Control Models
+
+:arrow_right: **DAC** Discretionary Access Control 
+- All object have an owner, owner can grant access to their objects
+
+:arrow_right: **RBAC** Role-Based Access Control
+- Privileged are assigned to roles, then roles to users
+
