@@ -23,16 +23,16 @@
 - Specifying specific list of files to upload **(max 1000 files in list at a time)**
 - Identify files via pattern matching (regex)
 - Validating data on load:
-        - Use VALIDATION_MODE (validate errors on load, does not load into table)
-        - ON_ERROR to run actions to follow
+      - Use VALIDATION_MODE (validate errors on load, does not load into table)\
+      - ON_ERROR to run actions to follow
 - When COPY command runs, Snowflake sets load status 
 - Metadata (expires after 64 days)
-        - Name of file\
-        - File size\
-        - Etag of file\
-        - #rows parsed\
-        - Timestamp on last load\
-        - Info on errors during load
+      - Name of file\
+      - File size\
+      - Etag of file\
+      - #rows parsed\
+      - Timestamp on last load\
+      - Info on errors during load
 - SF recommends removing the data from stage once the load is completed to avoid reloading again\
       - Use **REMOVE (and specify PURGE IN COPY argument) **
 - For semi-structured:
