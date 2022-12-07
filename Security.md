@@ -23,3 +23,9 @@ Enable users to connect to Snowflake using secure SSO (single sign-on)
 | Microsoft ADFS    | Microsoft Azure Active Directory |
 |                   | One Login                        |
 |                   | Ping One                         |
+
+
+
+### MFA 
+
+At a minimum, **ACCOUNTADMIN** role should be assigned to use MFA
