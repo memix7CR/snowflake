@@ -131,4 +131,4 @@ Allows to export data out of Snowflake
 - Unloading relational table to JSON
    - Use **OBJECT_CONSTRUCT** in COPY command to convert rows of relational table to VARIANT column, then unload the data as usual
       
-   
+  
