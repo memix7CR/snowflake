@@ -1,4 +1,4 @@
-# Cloud Data Platform and Arquitecture
+# Key Concepts and Arquitecture
 
 ## Platform & Cloud Service
 
@@ -69,9 +69,14 @@ SF caches different data to improve query performance and reducing costs
 
 - Supported platforms: AWS/Azure/GCP
 - Regions (Compute resources geographically provisioned)
+  ### North America
   - AWS : us-west-2, ca-central-1, us-east-2,us-east-1
-  - Azure : westus2, centralus, canadacentral, eastus2
+  - Azure : westus2, centralus, canadacentral, eastus2, southcentralus
   - GCP : us-central1, us-east4
+  - Excluding Gov Regions
+  - Cross-region account is not supported, single account per each region
 
 ![](/assets/clouds.png)
+
+
 
