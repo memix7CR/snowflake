@@ -10,7 +10,7 @@
 ## Storage
 
 - Data objects not directly visible (except via SQL)
-- Storage managed by Snowflake
+- Storage managed by Snowflake as **internal, compressed, columnar format**
 
 
 ## Query Processing
