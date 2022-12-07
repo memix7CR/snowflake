@@ -69,6 +69,9 @@ SF caches different data to improve query performance and reducing costs
 
 - Supported platforms: AWS/Azure/GCP
 - Regions (Compute resources geographically provisioned)
+  - AWS : us-west-2, ca-central-1, us-east-2,us-east-1
+  - Azure : westus2, centralus, canadacentral, eastus2
+  - GCP : us-central1, us-east4
 
 ![](/assets/clouds.png)
 
