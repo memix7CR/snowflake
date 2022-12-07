@@ -118,6 +118,15 @@ Snowflake encrypts all data at rest and in-transit **no additional cost**
   - Account Master Key (auto-rotate if >30 days old)
   - Table Master Key (auto-rotate if >30 days old)
   - File Keys
+  - Retired Keys **for decryption**
 
 ![](/assets/rekeying.png)
+
+
+### Tri-Secret Secure and Customer-Managed Keys
+
+- Combination of customer key and snowflake maintained key
+  - Create a composite master key then use it to encrypts all data in the account (never encrypt raw data)
+  - If customer key or Snowflake key is revoked, data cannot be decrypted
+  - Only for **Business Critical or higher** account
 
