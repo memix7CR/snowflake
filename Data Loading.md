@@ -93,3 +93,14 @@ Recommended for micro-batching (smaller)
 
 
 ![](/assets/snowpipe.png)
+
+
+### UNLOADING DATA
+
+#### General
+
+- Allows to export data out of Snowflake
+- Uses **COPY INTO** <location> (external or internal stage)
+    -Use **GET** command to download the file
+      
+   
