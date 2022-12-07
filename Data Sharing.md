@@ -16,3 +16,6 @@ Database objects shared are **read-only**, no actual data is copy or transferred
 :arrow_right: No limits of number of shared but **1 database only**
 
 
+![](/assets/sharing_1.png)
+
+![](/assets/sharing_2.png)
