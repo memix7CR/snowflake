@@ -1,6 +1,6 @@
 # Cloud Data Platform and Arquitecture
 
-## Service
+## Platform & Cloud Service
 
 - OLAP SaaS
 - Native SQL based on public cloud (not on-prem options)
@@ -56,4 +56,19 @@ SF caches different data to improve query performance and reducing costs
 :arrow_right: Cache dropped when the warehouse is suspended\
 
 
+## Supported Cloud Platforms/Regions
+
+### Pricing
+
+- Separate pricing for computing and storage
+- Pricing factors: region, editions, on-demand or capacity account
+- On-demand Storage : $40/TB
+- Capacity Storage: $23/TB
+
+### Regions
+
+- Supported platforms: AWS/Azure/GCP
+- Regions (Compute resources geographically provisioned)
+
+![](/assets/clouds.png)
 
