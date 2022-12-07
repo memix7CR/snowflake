@@ -76,4 +76,10 @@
 - Performance is punished (internal optimization is bypassed)
 
 
+### Time Travel & Fail-Safe
 
+- Query data in the past that has since been updated or deleted
+- Create clones of entire tables, schemas, databases at or before points in the past
+- Restore tables, schemas, databases that have been dropped
+
+![](/assets/cdp.png)
