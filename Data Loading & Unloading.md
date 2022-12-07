@@ -131,4 +131,10 @@ Allows to export data out of Snowflake
 - Unloading relational table to JSON
    - Use **OBJECT_CONSTRUCT** in COPY command to convert rows of relational table to VARIANT column, then unload the data as usual
       
-  ![](/assets/unload_sf.png)  ![](/assets/unload_s3.png)
+
+#### Unload into SF stage
+  ![](/assets/unload_sf.png)  
+
+      
+#### Unload into S3    
+  ![](/assets/unload_s3.png)
