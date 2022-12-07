@@ -71,7 +71,7 @@ SF caches different data to improve query performance and reducing costs
 
 https://account_name_region_{provider}.snowflakecomputing.com
 
-Account_name:
+Account_name:\
   -AWS       = account_name.region\
   -GCP/Azure = account_name.region.gcp/azure
 
