@@ -66,6 +66,9 @@
 - Contributes to storage cost
 
 
+![](/assets/views.png)
+
+
 #### Secure View
 
 - Both materialized and non-materialized can be set as secured
