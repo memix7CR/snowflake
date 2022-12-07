@@ -20,3 +20,4 @@
 
 ### Scaling Policies
 
+![](/assets/)
