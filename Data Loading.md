@@ -36,9 +36,9 @@
 - SF recommends removing the data from stage once the load is completed to avoid reloading again\
        - Use **REMOVE (and specify PURGE IN COPY argument) **
 - For semi-structured:
-       - Snowflake loads semi-structured data to **VARIANT** type column
-       - Can load semi-structured data into multiple columns but it must be stored as field in structured data
-       - Use **FLATTEN** to explode values into multiple **rows**
+       - Snowflake loads semi-structured data to **VARIANT** type column\
+       - Can load semi-structured data into multiple columns but it must be stored as field in structured data\
+       - Use **FLATTEN** to explode values into multiple **rows**\
        - Data Transformations during load : reordering, column-omission, casts, truncate text
 
 
