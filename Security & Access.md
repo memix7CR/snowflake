@@ -49,31 +49,31 @@ Enable users to connect to Snowflake using secure SSO (single sign-on)
 
 ### System Defined Roles
 
-:upper_right: **ORGADMIN**
+:arrow_right: **ORGADMIN**
 - Role that manages operations at the organization level:
   - Can create accounts in the organization
   - View all accounts in the organization 
   - View usage across the organization
 
-:upper_right: **ACCOUNTADMIN**
+:arrow_right: **ACCOUNTADMIN**
 - Encapsulates SECURITYADMIN and SYSADMIN
 
-:upper_right: **USERADMIN**
+:arrow_right: **USERADMIN**
 - Role that is dedicated to user and role management only
 
-:upper_right: **SECURITYADMIN**
+:arrow_right: **SECURITYADMIN**
 - Creates, modify, drops user, roles, monitor, grants
 
-:upper_right: **SYSYADMIN**
+:arrow_right: **SYSYADMIN**
 - Creates Virtual Warehouses, Databases and its objects
 - Recommend to assign **CUSTOM ROLES** to **SYSADMIN** 
 
-:upper_right: **PUBLIC**
+:arrow_right: **PUBLIC**
 - Automatically granted to all users
 - Can own secured objects
 - Used where explicit access control is not required
 
-:upper_right: **CUSTOM ROLES**
+:arrow_right: **CUSTOM ROLES**
 - Created by **SECURITYADMIN**
 - Assign to **SYSADMIN**
 - Create custom roles with least privilege and role them up
@@ -85,4 +85,29 @@ Enable users to connect to Snowflake using secure SSO (single sign-on)
 #### Privilege Inheritance
 
 ![](/assets/role_2.png)
+
+### Data Security
+
+#### End-to-End Encryption
+
+Snowflake encrypts all data at rest and in-transit **no additional cost**
+
+#### Client Side Encryption (Internal Stage)
+
+- If the stage is an internal stage data files are automatically encrypted by the Snowflake client on the user’s local machine prior to being transmitted to the internal stage.
+
+#### Client Side Encryption (External stage)
+
+- Client-side encryption means that a client encrypts data before copying it into a cloud storage staging area.
+
+    - The customer creates a secret master key, which is shared with Snowflake.
+
+    - The client, which is provided by the cloud storage service, generates a random encryption key and encrypts the file before uploading it into cloud storage. The random encryption key, in turn, is encrypted with the customer’s master key.
+
+    - Both the encrypted file and the encrypted random key are uploaded to the cloud storage service. The encrypted random key is stored with the file’s metadata.
+
+
+![](/assets/security.png)
+
+
 
