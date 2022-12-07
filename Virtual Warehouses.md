@@ -21,3 +21,7 @@
 ### Scaling Policies
 
 ![](/assets/policy.png)
+
+
+#### Some rules
+
