@@ -13,6 +13,6 @@ Recommended for micro-batching (smaller)
 - Load History is stored in the metadata of the pipe for **14 days**
 
 
-![]
+![](/assets/snowpipe.png)
 
 
