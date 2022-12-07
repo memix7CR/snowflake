@@ -26,6 +26,6 @@ Each **user** and **table** is allocated automatically an internal stage.  We ca
 - Convenient for files acceses by **multiple users** but copying into a **single table**
 - Cannot be altered or dropped, file format not supported.
 
-[Bluk Loading from AWS](https://docs.snowflake.com/en/user-guide/data-load-s3.html)
-[Bluk Loading from Azure](https://docs.snowflake.com/en/user-guide/data-load-azure.html)
-[Bluk Loading from GCP](https://docs.snowflake.com/en/user-guide/data-load-gcs.html)
+[Bluk Loading from AWS](https://docs.snowflake.com/en/user-guide/data-load-s3.html)\
+[Bluk Loading from Azure](https://docs.snowflake.com/en/user-guide/data-load-azure.html)\
+[Bluk Loading from GCP](https://docs.snowflake.com/en/user-guide/data-load-gcs.html)\
