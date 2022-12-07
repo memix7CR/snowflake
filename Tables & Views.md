@@ -47,3 +47,30 @@
 - Default **1 day of Time Travel** up to 90 days >= Enterprise Edition
 
 #### External
+
+- Allows access to data and query data stored in External Stage as in tables
+
+**Snowflake doesn't enforce any constraints (primary key, unique, foreign key) beside NOT NULL constraint
+
+### Types of Views
+
+#### Non-materialized views
+
+- Results are not stored
+
+#### Materialized Views
+
+- Results are stored
+- Executed once created
+- Faster performance than normal views
+- Contributes to storage cost
+
+
+#### Secure View
+
+- Both materialized and non-materialized can be set as secured
+- For data-privacy. Hides view definition and details from unauthorized viewers
+- Performance is punished (internal optimization is bypassed)
+
+
+
