@@ -26,8 +26,21 @@
 
 ## Cloud Services
 
-Services that coordinate activities across Snowflake
+Services that coordinate and ties activities across Snowflake
 
+- Authentication
+- Infrastructure Management
+- Metadata Management
+- Query Parsing & Optimization
+- Access Control
+
+### Caches
+
+SF caches different data to improve query performance and reducing costs
+
+#### Metadata cache  :point_right:  Cloud Services Layer
+
+- Improve compile time for queries against commonly used tables
 
 
 
