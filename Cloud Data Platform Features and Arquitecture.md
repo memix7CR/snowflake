@@ -41,7 +41,7 @@ SF caches different data to improve query performance and reducing costs
 #### Metadata cache
 
 :arrow_right:   Cloud Services Layer\
-:arrow_right:   Improve compile time for queries against commonly used tables\
+:arrow_right:   Improve compile time for queries against commonly used tables
 
 #### Result cache
 
